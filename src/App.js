@@ -54,7 +54,7 @@ export default memo(function App() {
       });
 
       const {data} = await Tesseract.recognize(
-        state.imgSource,'eng',
+        state.imgSource, 'por',
         { 
           logger: m => {
          
